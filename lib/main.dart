@@ -1,14 +1,6 @@
 import 'dart:convert';
-
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'package:flutter_svg/flutter_svg.dart';
-import 'dart:io';
-import 'package:path_provider/path_provider.dart';
-import 'package:csv/csv.dart';
-import 'package:fluttertoast/fluttertoast.dart';
-import 'package:share_plus/share_plus.dart';
-import 'package:shared_preferences/shared_preferences.dart';
+import 'screens/splash_screen.dart';
 
 void main() {
   runApp(MaterialApp(
@@ -17,6 +9,7 @@ void main() {
   ));
 }
 
+/*
 class SplashScreen extends StatefulWidget {
   @override
   _SplashScreenState createState() => _SplashScreenState();
@@ -629,7 +622,9 @@ class _TodoAppState extends State<TodoApp> {
                   final todo = tasksToDisplay[index];
                   return Container(
                     margin: EdgeInsets.symmetric(vertical: 8, horizontal: 12),
-                    /*padding: EdgeInsets.all(5),*/
+                    */
+/*padding: EdgeInsets.all(5),*//*
+
                     decoration: BoxDecoration(
                       color: Colors.grey[200],
                       borderRadius: BorderRadius.circular(10),
@@ -645,7 +640,9 @@ class _TodoAppState extends State<TodoApp> {
                       onLongPress: () => _showChangeStatusDialog(todo),
                       child: Container(
                         child: ListTile(
-                          /*contentPadding: EdgeInsets.symmetric(horizontal: 12),*/
+                          */
+/*contentPadding: EdgeInsets.symmetric(horizontal: 12),*//*
+
                           leading: Container(
                             alignment: Alignment.center,
                             width: 20,
@@ -708,9 +705,9 @@ class _TodoAppState extends State<TodoApp> {
                 },
               ),
               floatingActionButton: FloatingActionButton(
+                child: Icon(Icons.add),
                 onPressed: _showAddTodoDialog,
                 shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(50)),
-                child: Icon(Icons.add),
               ),
               bottomNavigationBar: BottomNavigationBar(
                 currentIndex: _currentIndex,
@@ -748,4 +745,4 @@ class TodoAppHome extends StatelessWidget {
   Widget build(BuildContext context) {
     return TodoApp();
   }
-}
+}*/
