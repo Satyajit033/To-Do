@@ -708,9 +708,9 @@ class _TodoAppState extends State<TodoApp> {
                 },
               ),
               floatingActionButton: FloatingActionButton(
-                child: Icon(Icons.add),
                 onPressed: _showAddTodoDialog,
                 shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(50)),
+                child: Icon(Icons.add),
               ),
               bottomNavigationBar: BottomNavigationBar(
                 currentIndex: _currentIndex,
