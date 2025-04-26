@@ -17,7 +17,7 @@ A simple and elegant Flutter-based ToDo application to manage your daily tasks w
 1. Ensure you have Flutter installed on your machine. If not, follow the [official installation guide](https://flutter.dev/docs/get-started/install).
 2. Clone this repository:
    ```bash
-   git clone https://github.com/Satyajit033/todo-app.git
+   git clone https://github.com/Satyajit033/To-Do.git
    ```
 3. Navigate to the project directory:
    ```bash
