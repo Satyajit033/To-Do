@@ -72,14 +72,26 @@ A simple and elegant Flutter-based ToDo application to manage your daily tasks w
   - fluttertoast: For showing toast messages
   - share_plus: For task sharing functionality
 
+
 ## Folder Structure
 
-lib/
-├── main.dart          # Main application entry point
 assets/
-├── background.svg     # Background image
-├── checklist.png      # App icon
-├── no-task.png        # Empty state image
+├── background.svg
+├── checklist.png
+└── no-task.png
+
+lib/
+├── models/
+│   └── todo.dart
+├── screens/
+│   ├── splash_screen.dart
+│   └── todo_app.dart
+├── utils/
+│   └── local_storage.dart
+├── widgets/
+│   ├── todo_dialogs.dart
+│   └── todo_list.dart
+└── main.dart
 
 
 ## Screens
