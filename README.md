@@ -75,6 +75,7 @@ A simple and elegant Flutter-based ToDo application to manage your daily tasks w
 
 ## Folder Structure
 
+```
 assets/
 ├── background.svg
 ├── checklist.png
@@ -92,6 +93,7 @@ lib/
 │   ├── todo_dialogs.dart
 │   └── todo_list.dart
 └── main.dart
+```
 
 
 ## Screens
